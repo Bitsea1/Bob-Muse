@@ -1,0 +1,81 @@
+{
+    "name": "Bob-Muse",
+    "description": "Bob`s Muse",
+    "version": "1.7.4",
+    "images": "https://images.unsplash.com/photo-1515405295579-ba7b45403062?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2160&q=80",
+     "configs": [
+        {
+            "label": "月付套餐",
+            "placeholder": "月付套餐ID 格式：[1,2,3,4,5]",
+            "field_name": "theme_moon",
+            "field_type": "input",
+            "default_value": ""
+        },
+        {
+            "label": "不限时套餐",
+            "placeholder": "不限时套餐ID 格式：[6,7,8,9,10]",
+            "field_name": "theme_limit",
+            "field_type": "input",
+            "default_value": ""
+        },
+        {
+            "label": "IOS使用教程",
+            "placeholder": "/#/knowledge?tag=使用教程&aid=1",
+            "field_name": "theme_ios",
+            "field_type": "input",
+            "default_value": ""
+        },
+        {
+            "label": "Android使用教程",
+            "placeholder": "/#/knowledge?tag=使用教程&aid=2",
+            "field_name": "theme_android",
+            "field_type": "input",
+            "default_value": ""
+        },
+        {
+            "label": "Windows使用教程",
+            "placeholder": "/#/knowledge?tag=使用教程&aid=3",
+            "field_name": "theme_windows",
+            "field_type": "input",
+            "default_value": ""
+        },
+        {
+            "label": "Mac使用教程",
+            "placeholder": "/#/knowledge?tag=使用教程&aid=4",
+            "field_name": "theme_mac",
+            "field_type": "input",
+            "default_value": ""
+        },
+        {
+            "label": "Apple ID",
+            "placeholder": "Apple ID",
+            "field_name": "theme_id",
+            "field_type": "input",
+            "default_value": ""
+        },
+        {
+            "placeholder": "",
+            "field_name": "theme_account",
+            "field_type": "input",
+            "default_value": ""
+        },
+        {
+            "placeholder": "",
+            "field_name": "theme_password",
+            "field_type": "input",
+            "default_value": ""
+        },
+        {
+            "placeholder": "www.baidu.com",
+            "field_name": "theme_url",
+            "field_type": "input",
+            "default_value": ""
+        },
+        {
+            "label": "自定义页脚(实现客服JS代码插入等)",
+            "placeholder": "自定义js代码",
+            "field_name": "custom_html",
+            "field_type": "textarea"
+        }
+    ]
+}
